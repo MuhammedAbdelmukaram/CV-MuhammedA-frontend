@@ -1,0 +1,20 @@
+
+<div class="header_wrapper">
+  <img class="profilepic" src="assets/ma.png" alt="">
+
+  <div class="name">
+    <h1>MUHAMMED ABDELMUKARAM</h1>
+    <p class="cv">Circum Vitae</p>
+  </div>
+
+  <div class="text_wrapper">
+  <ng-container *ngFor="let infos of info">
+
+    <div class="flex_column">
+    {{infos.text}}
+    </div>
+  </ng-container>
+  </div>
+
+</div>
+
